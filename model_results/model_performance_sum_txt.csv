@@ -1,0 +1,9 @@
+Model,Training Time,Testing Time,Accuracy,Precision(weighted),Recall(weighted),f1-score(weighted)
+rnn_bidirectional_sum_txt.h5,45.44 sec,2.34 sec,0.8985,0.9051,0.8985,0.898
+rnn_unidirectional_sum_txt.h5,31.43 sec,1.68 sec,0.9037,0.9099,0.9037,0.9032
+randforest_sum_txt.h5,5.13 sec,0.22 sec,0.6175,0.7749,0.6175,0.5507
+adaboost_sum_txt.h5,25.39 sec,1.39 sec,0.6776,0.7326,0.6776,0.6558
+gradboost_sum_txt.h5,59.41 sec,0.18 sec,0.5669,0.7063,0.5669,0.474
+xgboost_sum_txt.h5,2.17 sec,0.10 sec,0.6439,0.7823,0.6439,0.5917
+SVMGridSearch,2925.44 sec,75.27 sec,0.6439,0.9021,0.8821,0.8804
+Logistic Regression GridSearch,11.56 sec,0.01 sec,0.6439,0.9588,0.9567,0.9566
